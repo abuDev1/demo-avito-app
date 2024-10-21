@@ -1,0 +1,53 @@
+.advertisement {
+    width: 70%;
+}
+
+.cont {
+    display: flex;
+    justify-content: space-between;
+    width: 250px;
+}
+
+.active, .archive {
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.active {
+    border-bottom: 1px solid black;
+}
+
+.border_bottom {
+    border-bottom: 0.5px solid gray;
+}
+
+.advertisement_block {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    width: 70%;
+}
+
+.advertisement_image > img {
+    width: 300px;
+}
+
+.advertisement_text {
+    width: 300px;
+}
+
+.course {
+    font-size: 22px;
+    font-weight: 600;
+    color: #0382F7;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.location {
+    color: #A0A0A0;
+    font-size: 15px;
+}

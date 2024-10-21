@@ -1,0 +1,60 @@
+.menu {
+    margin: 0;
+    width: 580px;
+
+}
+
+.menu>ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu>ul>li {
+    color: white;
+    cursor: pointer;
+}
+
+.navigation {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navigation > a {
+    text-decoration: none;
+}
+
+
+.announcement {
+    color: white;
+    cursor: pointer;
+}
+
+.avatar {
+    display: flex;
+    position: relative;
+}
+
+.avatar > img {
+    width: 45px;
+    cursor: pointer;
+}
+
+.absolute {
+    position: absolute;
+    top: 56px;
+    left: -42px;
+}
+
+.avatar > p {
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.announcement > a {
+    text-decoration: none;
+    color: inherit;
+}
